@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en">
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>METRO GIS/Cartography</origin>
+				<pubdate>June 2009</pubdate>
+				<title Sync="TRUE">metrobnd_region</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<othercit>See Series/Publication for more details.</othercit>
+				<onlink>L:\pub\metro\covers\salesmap\metrobnd</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>METRO GIS/Cartography</origin>
+						<title>metrobnd</title>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">metrobnd_region</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Area in which the State of Texas collects a 1 percent sales tax to support Metropolitan Transit Authority of Harris County, Texas public transportation efforts.</abstract>
+			<purpose>Determines Sales Tax collection and service area</purpose>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20060417</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-95.982785</westbc>
+				<eastbc Sync="TRUE">-95.011122</eastbc>
+				<northbc Sync="TRUE">30.180793</northbc>
+				<southbc Sync="TRUE">29.397625</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2928863.015815</leftbc>
+				<rightbc Sync="TRUE">3228933.500000</rightbc>
+				<topbc Sync="TRUE">13989387.946590</topbc>
+				<bottombc Sync="TRUE">13713452.100354</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>METRO Transit Authority Service Area</themekey>
+				<themekey>sales tax</themekey>
+				<themekey>METRO Boundary</themekey>
+				<themekey>sales tax</themekey>
+			</theme>
+			<place>
+				<placekey>Harris County</placekey>
+				<placekey>Houston, TX</placekey>
+			</place>
+			<temporal><tempkey>As of June 14, 2005</tempkey></temporal></keywords>
+		<accconst>METRO LAN and file restrictions</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Metropolitan Transit Authority of Harris County, Texas</cntorg>
+					<cntper>Scott P. Newton</cntper>
+				</cntorgp>
+				<cntpos>Manager, GIS/Cartography</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>P.O. Box 61429</address>
+					<city>Houston</city>
+					<state>TX</state>
+					<postal>77208-1429</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(713) 739-4621</cntvoice>
+				<cntemail>sn01@ridemetro.org</cntemail>
+				<hours>8:00 a.m. - 5:00 p.m.  Monday - Friday</hours>
+				<cntaddr><addrtype>physical address</addrtype><address>1900 Main St</address><city>Houston</city><state>TX</state><postal>77002</postal><country>USA</country></cntaddr></cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<logic>
+ArcInfo Coverage set up as
+Arcs
+Polygons
+Region.mtaboundary 
+</logic>
+		<posacc>
+			<horizpa>
+				<horizpar>+- 40'</horizpar>
+				<qhorizpa>
+					<horizpae>Digital Ortho-photography with Horizontal accuracy of +- 10' horizontal accuracy</horizpae>
+				</qhorizpa>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<typesrc>paper</typesrc>
+				<srccontr>
+Katy Annexation
+
+SW parcels annexxed March 2003, reflected in MT boundary July 2003 _BC14
+</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Made by simulating borders of Harris County, City of Houston and other Municipal Boundaries - Katy, Missouri City, Taylor Lake, El Lago</procdesc>
+				<procdate>20030113</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Bryan Carrloll added City of Houston annexation in the Northeast side bordering Lake Houston Parkway.  He also adjusted the boundary in the NASA area to reflect a  ROW boudary provided by the city of Houston.  He made one other adjustment in the Baybrook Mall area.  Verticies were moved  to closely match City of Houston.  Boundaries between City of Houston and METRO service area are not an exact match.</procdesc>
+				<procdate>20020311</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Bryan Carroll</cntper>
+							<cntorg>METRO GIS/Cartography</cntorg>
+						</cntperp>
+						<cntpos>GIS Analyst II</cntpos>
+						<cntvoice>7137394608</cntvoice>
+						<cntemail>bc14@ridemetro.org</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Modified boundary in the Southeast/Scarsdale area to reflect annexations by the limited purpose City of Houston.  The specific COH annexation is the Clear Brook M.U.D. number 2002-1031.  The annexations were passed by COH  city council on November 13, 2002.  The edits were made using digital ortho-photography as a heads-up digitizing guide and hard copy paper maps provided by the COH as an annexation package.  The Clear Brook City annexation was one of many annexations in the package but it was the only one to affect the METRO Service Area Boundary.</procdesc>
+				<procdate>20021209</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Scott Newton</cntper>
+							<cntorg>METRO GIS/Cartography</cntorg>
+						</cntperp>
+						<cntpos>Manager, GIS/Cartography</cntpos>
+						<cntvoice>713-739-4621</cntvoice>
+						<cntemail>sn01@ridemetro.org</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Edited boundary in Southeast area to coincide with City of Houston Boundary and in the area of Missouri City to coincide with MO City boundary.   Updated boundaries for Cities of Katy, Waller, Jersey Village, Taylor Lake and   El Lago using local map book and digital ortho-photography as a reference.</procdesc>
+				<procdate>20030113</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>A referendum in November 2003 has dictated that METRO verify its service area boundary.  All outlying cities were contacted for descriptions of any annexations since January 1988 (the date of the last election in which METR had an issue on the ballot).  This boundary is a compliation of all the cities' annexations minus the Houston ship channel legal limits.  Cities contacted for annexation information include Tomball, Waller, Jersey Village, Katy, Missouri City, Taylor Lake Village, El Lago and the City of Houston.  Humble has had no annexations since 1988. </procdesc>
+				<procdate>20030821</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Used City of Houston annexation information to update the METRO boundary in the ship channel area.  Areas included are the areas within the ship channel area that are fully annexed by the City of Houston.  The viaduct from Lake Houston to the NE area of City of Houston was also added.  Other city Boundaries were updated as a result from an exercise to recreate their boundaries by annexation since 1978.</procdesc>
+				<procdate>20030919</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Scott Newton edited coverage to include City of Houston annexations dated March 2005.  Areas included a deannexation near Lake Houston and annexations in the Channelview/Uvalde area, Atascocita area south of FM1960, and the Grand Lakes area in Southwest Houston area.  Edited as a coverage and converted to a shapefile.</procdesc>
+				<procdate>20050614</procdate>
+				<procsv>ArcGIS 9.04</procsv>
+			</procstep>
+			<procstep><procdesc>Edited as a coverage by Michael Murphey to match the boundary for the City of Houston that includes March 2005 annexations in the Cinco Ranch in the Southwest area.</procdesc><srcused Sync="TRUE">D:\covers\salesmap\metrobnd</srcused><date Sync="TRUE">20050614</date><time Sync="TRUE">13092900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">L:\crt\metro\shp_admin_pol\metrobnd</srcused><date Sync="TRUE">20060914</date><time Sync="TRUE">16071300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">L:\crt\metro\shp_admin_pol\metrobnd</srcused><date Sync="TRUE">20070119</date><time Sync="TRUE">13242000</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">L:\PUB\METRO\shapes\metrobnd_region</srcused><date Sync="TRUE">20071116</date><time Sync="TRUE">15011200</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\1_Shp_Files_Acquired_Starting_July_2007\METRO Bound Update On The Works\metrobnd_region_On_The_Works</srcused><date Sync="TRUE">20071121</date><time Sync="TRUE">14133300</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">L:\crt\crtemp\donna\Fr_John\metrobnd_region_On_The_Works</srcused><date Sync="TRUE">20071129</date><time Sync="TRUE">11161500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">L:\crt\metro\shp_admin_pol\metrobnd_region</srcused><date Sync="TRUE">20080430</date><time Sync="TRUE">12235900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\GIS_Data_For_The_Web\New Folder\metrobnd_region</srcused><date Sync="TRUE">20080430</date><time Sync="TRUE">12251600</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">L:\PUB\METRO\shapes\metrobnd_region</srcused><date Sync="TRUE">20080516</date><time Sync="TRUE">16454700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">S:\Shapefiles\crt\metro\shp_admin_pol\metrobnd_region</srcused><date Sync="TRUE">20080930</date><time Sync="TRUE">15052800</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\GeoDB_Test\metrobnd_region</srcused><date Sync="TRUE">20081001</date><time Sync="TRUE">09462800</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">S:\Shapefiles\crt\metro\shp_admin_pol\metrobnd_region</srcused><date Sync="TRUE">20090507</date><time Sync="TRUE">16372100</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\TEST\MTA_Bnd_Update\metrobnd_region</srcused><procdate Sync="TRUE">20090619</procdate><proctime Sync="TRUE">09431900</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>ArcInfo Region</indspref>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="metrobnd_region">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">1</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="label">
+				<sdtstype Sync="TRUE">Label point</sdtstype>
+				<ptvctcnt Sync="TRUE">3</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="polygon">
+				<sdtstype Sync="TRUE">GT-polygon composed of chains</sdtstype>
+				<ptvctcnt Sync="TRUE">16</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype Sync="TRUE">Point</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="region.mtaboundary">
+				<sdtstype Sync="TRUE">Composite object</sdtstype>
+				<ptvctcnt Sync="TRUE">1</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="region.mtaboundary">
+				<sdtstype Sync="TRUE">Composite object</sdtstype>
+				<ptvctcnt Sync="TRUE">1</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="region.mta_mcext">
+				<sdtstype Sync="TRUE">Composite object</sdtstype>
+				<ptvctcnt Sync="TRUE">1</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="metrobnd_region">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<efeacnt Sync="TRUE">1</efeacnt>
+			</esriterm>
+			<esriterm Name="label">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Label</efeageom>
+				<efeacnt Sync="TRUE">3</efeacnt>
+			</esriterm>
+			<esriterm Name="polygon">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">TRUE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<efeacnt Sync="TRUE">16</efeacnt>
+			</esriterm>
+			<esriterm Name="tic">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Tic</efeageom>
+				<efeacnt Sync="TRUE">0</efeacnt>
+			</esriterm>
+			<esriterm Name="region.mtaboundary">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">TRUE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Region</efeageom>
+				<efeacnt Sync="TRUE">1</efeacnt>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">28.383333</stdparll><stdparll Sync="TRUE">30.283333</stdparll><longcm Sync="TRUE">-99.000000</longcm><latprjo Sync="TRUE">27.833333</latprjo><feast Sync="TRUE">1968500.000000</feast><fnorth Sync="TRUE">13123333.333333</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_StatePlane_Texas_South_Central_FIPS_4204_Feet</projcsn>
+			</cordsysn>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="metrobnd_region">
+			<enttyp>
+				<enttypl Sync="TRUE">metrobnd_region</enttypl>
+				<enttypc Sync="TRUE">1</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">18</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+				<attalias Sync="TRUE">AREA</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">18</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+				<attalias Sync="TRUE">PERIMETER</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDAR</attrlabl>
+				<attrdef Sync="TRUE">Length of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">16</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+				<attalias Sync="TRUE">MTABOUNDAR</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUND_1</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">16</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+				<attalias Sync="TRUE">MTABOUND_1</attalias></attr>
+		</detailed>
+		<detailed Name="metrobnd.patmtaboundary">
+			<enttyp>
+				<enttypl Sync="TRUE">metrobnd.patmtaboundary</enttypl>
+				<enttypc Sync="TRUE">1</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">11</atnumdec>
+				<atoutwid Sync="TRUE">18</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">11</atnumdec>
+				<atoutwid Sync="TRUE">18</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">13</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDARY#</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDARY-ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">METROBND_AREA</attrlabl>
+				<atnumdec Sync="TRUE">3</atnumdec>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">METROBND_PERIMET</attrlabl>
+				<atnumdec Sync="TRUE">3</atnumdec>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDAR</attrlabl>
+				<atoutwid Sync="TRUE">10</atoutwid>
+				<attrtype Sync="TRUE">Binary</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUND_1</attrlabl>
+				<atoutwid Sync="TRUE">10</atoutwid>
+				<attrtype Sync="TRUE">Binary</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+		</detailed>
+		<detailed Name="metrobnd.patmtaboundary">
+			<enttyp>
+				<enttypl Sync="TRUE">metrobnd.patmtaboundary</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDARY#</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDARY-ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RINGS_OK</attrlabl>
+				<attrdef>Total square miles water and land</attrdef>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">RINGS_NOK</attrlabl>
+				<attrdef>Square miles minus water</attrdef>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MACOV-ID</attrlabl>
+			</attr>
+		</detailed>
+		<detailed Name="metrobnd.patmtaboundary">
+			<enttyp>
+				<enttypl Sync="TRUE">metrobnd.patmtaboundary</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDARY#</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTABOUNDARY-ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SQMILES</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">SQMILES-HYDRO</attrlabl>
+			</attr>
+		</detailed>
+		<detailed Name="metrobnd.patmta_mcext">
+			<enttyp>
+				<enttypl Sync="TRUE">metrobnd.patmta_mcext</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTA_MCEXT#</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">MTA_MCEXT-ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">0.173</transize>
+					<dssize Sync="TRUE">0.173</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20110308</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>METRO</cntorg>
+					<cntper>Bryan Carroll</cntper>
+				</cntorgp>
+				<cntpos>GIS Analyst II</cntpos>
+				<cntaddr>
+					<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+					<city>Houston</city>
+					<state>Texas</state>
+					<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+				</cntaddr>
+				<cntvoice>713-739-4608</cntvoice>
+				<cntemail>bc14@ridemetro.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"></languageCode>
+		</dataLang>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-95.982785</westBL>
+			<eastBL Sync="TRUE">-95.011122</eastBL>
+			<northBL Sync="TRUE">30.180793</northBL>
+			<southBL Sync="TRUE">29.397625</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idCitation>
+			<resTitle Sync="TRUE">metrobnd_region</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2928863.015815</westBL>
+					<northBL Sync="TRUE">13989387.94659</northBL>
+					<southBL Sync="TRUE">13713452.100354</southBL>
+					<eastBL Sync="TRUE">3228933.5</eastBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+					<linkage Sync="TRUE">file://\\arcgisweb\VOL1\PUB\METRO\shapes\metrobnd_region.shp</linkage>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.173</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<Esri>
+		<ModDate>20110308</ModDate>
+		<ModTime>13203200</ModTime>
+		<SyncDate>20110308</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>13203200</SyncTime>
+		<CreaDate>20090619</CreaDate>
+		<CreaTime>09431900</CreaTime>
+		<MetaID>{D95E263C-EC8D-4D64-A85C-E86546493080}</MetaID></Esri>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdDateSt Sync="TRUE">20110308</mdDateSt>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">NAD_1983_StatePlane_Texas_South_Central_FIPS_4204_Feet</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="metrobnd_region"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+</metadata>
